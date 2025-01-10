@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         localStorage.setItem("loggedUser", "Jose");
         alert("Inicio de sesión exitoso.");
         window.location.replace("Archivos");
-    } else if (username === "Fernanda" && password === "1234") {
+    } else if (username === "Fernanda" && password === "22411070200176") {
         localStorage.setItem("loggedUser", "Fernanda");
         alert("Inicio de sesión exitoso.");
         window.location.replace("Archivos");
@@ -25,7 +25,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         localStorage.setItem("loggedUser", "Adrian");
         alert("Inicio de sesión exitoso.");
         window.location.replace("Archivos");
-    } else if (username === "Veronica" && password === "1234") {
+    } else if (username === "Veronica" && password === "23411070200143") {
         localStorage.setItem("loggedUser", "Veronica");
         alert("Inicio de sesión exitoso.");
         window.location.replace("Archivos");
