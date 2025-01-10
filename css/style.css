@@ -926,3 +926,31 @@ section.card {
   }
 }
 
+.OrganizarTXT {
+  color: #ECF0F1; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 255);
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.OrganizarTXT h1 {
+  font-size: 1.5em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.OrganizarTXT h1 br {
+  margin-bottom: 20px;
+}
+
+.OrganizarTXT h1::before {
+  content: "RoboStones";
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #E74C3C;
+}
