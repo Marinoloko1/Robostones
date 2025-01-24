@@ -547,7 +547,7 @@ footer .foo-row .foo-col ul li a:hover{
       background: transparent;
       border: none;
       font-size: 22px;
-      color: var(--color-negro);
+      color: #f2f2f2;
   }
 
   footer .foo-row{
@@ -641,7 +641,7 @@ footer .foo-row .foo-col ul li a:hover{
 }
 
 /* From Uiverse.io by samuelfcosta18 */ 
-section.card {
+section.redesS {
   position: relative;
   width: 250px;
   height: 250px;
@@ -654,19 +654,19 @@ section.card {
   perspective: 1000px;
   transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.card svg {
+.redesS svg {
   fill: #000;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 3px;
 }
-.card:hover {
+.redesS:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px #000000;
   background-color: #f2f2f2;
   color: #ffffff;
 }
 
-.card__content {
+.redesS__content {
   color: #000000;
   position: absolute;
   top: 0;
@@ -681,11 +681,11 @@ section.card {
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.card:hover .card__content {
+.redesS:hover .redesS__content {
   transform: rotateX(0deg);
 }
 
-.card__title {
+.redesS__title {
   margin: 0;
   padding-left: 5px;
   font-size: 24px;
@@ -693,11 +693,11 @@ section.card {
   font-weight: 700;
 }
 
-.card:hover svg {
+.redesS:hover svg {
   scale: 0;
 }
 
-.card__description {
+.redesS__description {
   margin: 10px 0 0;
   font-size: 14px;
   color: #000000;
@@ -705,7 +705,7 @@ section.card {
 }
 /* Commands to change the shadows in dark mode
 @media (prefers-color-scheme: dark) {
-  .card:hover {
+  .redesS:hover {
   box-shadow: 0 8px 16px #000000;
   }
 }*/
@@ -909,13 +909,13 @@ section.card {
 }
 
 @media (max-width: 768px) {
-  #cards-container {
+  #redesSs-container {
       display: flex;           
       flex-direction: column;    
       gap: 20px;                 
   }
 
-  .card {
+  .redesS {
       width: 100%;      
       margin-bottom: 20px;      
   }
@@ -955,3 +955,64 @@ section.card {
   color: #E74C3C;
 }
 
+.INFO_NOTICIAS {
+  width: 320px;
+  height: 350px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(#212121, #212121) padding-box,
+  linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transform-origin: right bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .INFO_NOTICIAS .main-content {
+  flex: 1;
+  }
+  
+  .INFO_NOTICIAS .header span:first-child {
+  font-weight: 600;
+  color: #717171;
+  margin-right: 4px;
+  }
+  
+  .INFO_NOTICIAS .heading {
+  font-size: 24px;
+  margin: 24px 0 16px;
+  font-weight: 600;
+  }
+  
+  .INFO_NOTICIAS .categories {
+  display: flex;
+  gap: 8px;
+  }
+  
+  .INFO_NOTICIAS .categories span {
+  background-color: #e81cff;
+  padding: 4px 8px;
+  font-weight: 6000;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0em;
+  }
+  
+  .INFO_NOTICIAS .footer {
+  font-weight: 600;
+  color: #717171;
+  margin-right: 4px;
+  }
+  
+  .INFO_NOTICIAS:hover {
+  rotate: 8deg;
+  }
+
+  .Noticiasgod {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+  }
